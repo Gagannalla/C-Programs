@@ -1,0 +1,31 @@
+//Hello World
+
+#include<stdio.h>
+void main()
+{
+    printf("Hello World");
+}
+
+// All Ops output of any 2 numbers
+
+
+#include<stdio.h>
+main()
+{
+int num_1,num_2,sum=0,sub=0,mul=0,divi=0;
+printf("Enter your first number : \n==> ");
+scanf("%d",&num_1);
+printf("Enter your Second number : \n==> ");
+scanf("%d",&num_2);
+
+sum=num_1+num_2;
+sub=num_1-num_2;
+mul=num_1*num_2;
+divi=num_1%num_2;
+
+printf("The sum of %d and %d is %d\n", num_1,num_2,sum);
+printf("The substraction of %d and %d is %d\n", num_1,num_2,sub);
+printf("The Product of %d and %d is %d\n", num_1,num_2,mul);
+printf("The Division of %d and %d is %d\n", num_1,num_2,divi);
+
+}
